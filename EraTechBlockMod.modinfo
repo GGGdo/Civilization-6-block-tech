@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a5fc4b48-2c00-42d4-8362-0066ae2b6068" version="1">
+  <Properties>
+    <Name>EraTechBlockMod</Name>
+    <Description>This is a brief description of the mod.</Description>
+    <Created>1723539770</Created>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Authors>gggdo</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Files>
+    <File>EraTechBlock.lua</File>
+    <File>EraTechBlock.sql</File>
+  </Files>
+  <InGameActions>
+    <UpdateDatabase id="EraTechBlock_Update">
+      <File>EraTechBlock.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="EraTechBlock_Update_Lua">
+      <File>EraTechBlock.lua</File>
+    </UpdateDatabase>
+  </InGameActions>
+</Mod>
